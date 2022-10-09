@@ -62,11 +62,11 @@
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(86, 48);
             this.startButton.TabIndex = 3;
-            this.startButton.Text = "Начать";
+            this.startButton.Text = "Начать играть";
             this.startButton.UseVisualStyleBackColor = true;
             this.startButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
-            // Game
+            // GameView
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -76,7 +76,7 @@
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.rebootButton);
             this.Controls.Add(this.restartButton);
-            this.Name = "Game";
+            this.Name = "GameView";
             this.ResumeLayout(false);
 
         }
